@@ -1,0 +1,8 @@
+<?php
+
+namespace {{ namespace }};
+
+interface DummyClass
+{
+   // Extend with your methods
+}

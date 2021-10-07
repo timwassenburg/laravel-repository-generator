@@ -1,0 +1,30 @@
+{
+    "name": "timwassenburg/repository-generator",
+    "description": "Generate Laravel repositories",
+    "keywords": ["generator", "php", "cli", "generator", "laravel", "artisan"],
+    "homepage": "https://github.com/timwassenburg/repository-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Wassenburg",
+            "email": "timwass@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "symfony/console": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TimWassenburg\\RepositoryGenerator\\": "src/",
+            "TimWassenburg\\RepositoryGenerator\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TimWassenburg\\RepositoryGenerator\\RepositoryGeneratorServiceProvider"
+            ]
+        }
+    }
+}

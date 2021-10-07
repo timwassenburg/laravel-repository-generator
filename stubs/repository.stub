@@ -1,0 +1,23 @@
+<?php
+
+namespace {{ namespace }};
+
+use TimWassenburg\RepositoryGenerator\Repository\BaseRepository;
+use App\Repositories\DummyClassInterface;
+use {{ namespacedModel }};
+
+/**
+ * Class DummyClass.
+ */
+class DummyClass extends BaseRepository implements DummyClassInterface
+{
+    /**
+     * UserRepository constructor.
+     *
+     * @param {{ Model }} $model
+     */
+    public function __construct({{ Model }} $model)
+    {
+        parent::__construct($model);
+    }
+}
