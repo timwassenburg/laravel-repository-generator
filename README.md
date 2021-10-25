@@ -1,13 +1,12 @@
 # Laravel Repository Generator
-
 With this package you can generate repositories with the ```artisan make:repository``` command. 
 The generator will generate the repository, repository interface and will bind them automatically (can be changed to 
 manual binding) to the Service Container so you can inject the interface into your controllers.
 
 ## Installation
-Require this package with composer. It is recommended to only require the package for development.
+Require the Laravel Repository Generator with composer.
 ```
-composer require timwassenburg/repository-generator --dev
+composer require timwassenburg/laravel-repository-generator
 ```
 
 ### Publish config (optional)
@@ -16,7 +15,7 @@ php artisan vendor:publish --provider="TimWassenburg\RepositoryGenerator\Reposit
 ```
 
 ## Usage
-For usage we take the following steps. Generate the repository and then inject it into a controller or service.
+For usage take the following steps. Generate the repository and then inject it into a controller or service.
 
 ### Generating repositories
 Run the following command.
@@ -96,3 +95,9 @@ class RepositoryServiceProvider extends ServiceProvider
    }
 }
 ```
+
+## Contributing
+If you want to contribute to this package feel tree to open a ticket or a pull request.
+
+## License
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.

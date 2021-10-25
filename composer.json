@@ -1,8 +1,8 @@
 {
-    "name": "timwassenburg/repository-generator",
+    "name": "timwassenburg/laravel-repository-generator",
     "description": "Generate Laravel repositories",
     "keywords": ["generator", "php", "cli", "generator", "laravel", "artisan"],
-    "homepage": "https://github.com/timwassenburg/repository-generator",
+    "homepage": "https://github.com/timwassenburg/laravel-repository-generator",
     "license": "MIT",
     "authors": [
         {
@@ -16,8 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "TimWassenburg\\RepositoryGenerator\\": "src/",
-            "TimWassenburg\\RepositoryGenerator\\Tests\\": "tests/"
+            "TimWassenburg\\RepositoryGenerator\\": "src/"
         }
     },
     "extra": {
