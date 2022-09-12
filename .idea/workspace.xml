@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26582c00-23f9-4493-b29a-d27a32a56542" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Repository/BaseRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/BaseRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/EloquentRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/EloquentRepositoryInterface.php" afterDir="false" />
-    </list>
+    <list default="true" id="26582c00-23f9-4493-b29a-d27a32a56542" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662989597942</updated>
       <workItem from="1662989599445" duration="335000" />
-      <workItem from="1662990460629" duration="716000" />
+      <workItem from="1662990460629" duration="1279000" />
     </task>
     <servers />
   </component>
