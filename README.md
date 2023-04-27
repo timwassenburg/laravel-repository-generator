@@ -37,7 +37,7 @@ manual binding) to the Service Container so you can inject the interface into yo
 ## Installation
 Require the Laravel Repository Generator with composer.
 ```bash
-composer require timwassenburg/laravel-repository-generator
+composer require timwassenburg/laravel-repository-generator --dev
 ```
 
 ### Publish config (optional)
