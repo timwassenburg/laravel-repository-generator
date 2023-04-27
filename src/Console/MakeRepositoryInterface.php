@@ -3,7 +3,6 @@
 namespace TimWassenburg\RepositoryGenerator\Console;
 
 use Illuminate\Console\GeneratorCommand;
-use Illuminate\Support\Facades\Artisan;
 
 class MakeRepositoryInterface extends GeneratorCommand
 {

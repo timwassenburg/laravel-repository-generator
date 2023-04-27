@@ -41,7 +41,7 @@ class MakeRepository extends GeneratorCommand
     public function handle()
     {
         // Generate the repository interface
-        $this->call('make:repository-interface', ['name' => $this->getNameInput() . 'Interface']);
+        $this->call('make:repository-interface', ['name' => $this->getNameInput().'Interface']);
 
         return parent::handle();
     }
@@ -68,9 +68,8 @@ class MakeRepository extends GeneratorCommand
     {
         $classname = Str::replace('Repository', '', $this->getNameInput());
         $stub = Str::replace('{{ Model }}', $classname, $stub);
-        $stub = Str::replace('{{ namespacedModel }}', 'App\Models\\' . $classname, $stub);
+        $stub = Str::replace('{{ namespacedModel }}', 'App\Models\\'.$classname, $stub);
 
         return parent::replaceNamespace($stub, $name);
     }
-
 }

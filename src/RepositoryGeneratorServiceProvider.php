@@ -32,7 +32,7 @@ class RepositoryGeneratorServiceProvider extends ServiceProvider
             ]);
 
             $this->publishes([
-                __DIR__ . '/../config/repository-generator.php' => config_path('repository-generator.php'),
+                __DIR__.'/../config/repository-generator.php' => config_path('repository-generator.php'),
             ], 'config');
         }
     }
@@ -43,9 +43,8 @@ class RepositoryGeneratorServiceProvider extends ServiceProvider
         $files = (file_exists($path)) ? File::files($path) : [];
 
         foreach ($files as $file) {
-            // todo: this can use some improvement
-            $repository = 'App\Repositories\Eloquent\\' . $file->getFilenameWithoutExtension();
-            $repositoryInterface = 'App\Repositories\\' . $file->getFilenameWithoutExtension() . 'Interface';
+            $repository = 'App\Repositories\Eloquent\\'.$file->getFilenameWithoutExtension();
+            $repositoryInterface = 'App\Repositories\\'.$file->getFilenameWithoutExtension().'Interface';
 
             $this->app->bind($repositoryInterface, $repository);
         }
