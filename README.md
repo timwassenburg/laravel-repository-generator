@@ -42,6 +42,13 @@ Require the Laravel Repository Generator with composer.
 composer require timwassenburg/laravel-repository-generator --dev
 ```
 
+## Version with adding new Model in construction
+```bash
+composer require pecepl/timwassenburg-laravel-repository-generator
+```
+
+
+
 ### Publish config (optional)
 ```bash
 php artisan vendor:publish --provider="TimWassenburg\RepositoryGenerator\RepositoryGeneratorServiceProvider" --tag="config"
