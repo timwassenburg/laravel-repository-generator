@@ -44,7 +44,7 @@ composer require timwassenburg/laravel-repository-generator --dev
 
 ## Version with adding new Model in construction
 ```bash
-composer require pecepl/timwassenburg-laravel-repository-generator
+composer require pecepl/timwassenburg-laravel-repository-generator --dev
 ```
 
 
