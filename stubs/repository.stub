@@ -3,13 +3,12 @@
 namespace {{ namespace }};
 
 use TimWassenburg\RepositoryGenerator\Repository\BaseRepository;
-use App\Repositories\DummyClassInterface;
 use {{ namespacedModel }};
 
 /**
  * Class DummyClass.
  */
-class DummyClass extends BaseRepository implements DummyClassInterface
+class DummyClass extends BaseRepository
 {
     /**
      * UserRepository constructor.
