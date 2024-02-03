@@ -1,5 +1,5 @@
 {
-    "name": "timwassenburg/laravel-repository-generator",
+    "name": "pecepl/timwassenburg-laravel-repository-generator",
     "description": "Generate Laravel repositories",
     "keywords": ["generator", "php", "cli", "generator", "laravel", "artisan"],
     "homepage": "https://github.com/timwassenburg/laravel-repository-generator",
