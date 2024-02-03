@@ -16,7 +16,7 @@ class DummyClass extends BaseRepository implements DummyClassInterface
      *
      * @param {{ Model }} $model
      */
-    public function __construct({{ Model }} $model)
+    public function __construct({{ Model }} $model = new {{ Model }})
     {
         parent::__construct($model);
     }
